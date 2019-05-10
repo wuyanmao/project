@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion" lang="zh-Hans">
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="theme-color" content="#222">
+
+
+
+  
+  
+    
+    
+  <script src="/wuyanmao.github.io/lib/pace/pace.min.js?v=1.0.2"></script>
+  <link href="/wuyanmao.github.io/lib/pace/pace-theme-fill-left.min.css?v=1.0.2" rel="stylesheet">
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/wuyanmao.github.io/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
+
+
+
+
+
+
+
+<link href="/wuyanmao.github.io/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
+
+<link href="/wuyanmao.github.io/css/main.css?v=5.1.4" rel="stylesheet" type="text/css">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/wuyanmao.github.io/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/wuyanmao.github.io/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/wuyanmao.github.io/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/wuyanmao.github.io/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="Hexo, NexT">
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="利用 Hexo 框架搭建一个属于我们自己的博客并写第一篇博客 一、创建文章在站点文件夹中打开 git bash，输入如下命令创建文章，其中 title 为文章的标题 $ hexo new “title”1当输入命令后，就会在 source/_post 文件夹下创建一个文件，命名为：title.md 这个文件就是将要发布到网站上的原始文件，用于记录文章内容 下面，我们将要在这个文件中写下我们的第一">
+<meta name="keywords" content="计算机 php">
+<meta property="og:type" content="article">
+<meta property="og:title" content="test">
+<meta property="og:url" content="https://wuyanmao.github.io/2019/05/10/test/index.html">
+<meta property="og:site_name" content="B-L-O-G">
+<meta property="og:description" content="利用 Hexo 框架搭建一个属于我们自己的博客并写第一篇博客 一、创建文章在站点文件夹中打开 git bash，输入如下命令创建文章，其中 title 为文章的标题 $ hexo new “title”1当输入命令后，就会在 source/_post 文件夹下创建一个文件，命名为：title.md 这个文件就是将要发布到网站上的原始文件，用于记录文章内容 下面，我们将要在这个文件中写下我们的第一">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="https://wuyanmao.github.io/2019/05/10/test/图片地址">
+<meta property="og:image" content="https://www.example.com/example.PNG">
+<meta property="og:image" content="https://wuyanmao.github.io/2019/05/10/test/title/example.PNG">
+<meta property="og:updated_time" content="2019-05-10T10:49:27.877Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="test">
+<meta name="twitter:description" content="利用 Hexo 框架搭建一个属于我们自己的博客并写第一篇博客 一、创建文章在站点文件夹中打开 git bash，输入如下命令创建文章，其中 title 为文章的标题 $ hexo new “title”1当输入命令后，就会在 source/_post 文件夹下创建一个文件，命名为：title.md 这个文件就是将要发布到网站上的原始文件，用于记录文章内容 下面，我们将要在这个文件中写下我们的第一">
+<meta name="twitter:image" content="https://wuyanmao.github.io/2019/05/10/test/图片地址">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/wuyanmao.github.io/',
+    scheme: 'Mist',
+    version: '5.1.4',
+    sidebar: {"position":"right","display":"always","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="https://wuyanmao.github.io/2019/05/10/test/">
+
+
+
+
+
+  <title>test | B-L-O-G</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-right page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/wuyanmao.github.io/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">B-L-O-G</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle"></p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-主页">
+          <a href="/wuyanmao.github.io/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
+            
+            主页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-php">
+          <a href="/wuyanmao.github.io/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
+            
+            php
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-js基础">
+          <a href="/wuyanmao.github.io/categories/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-th"></i> <br>
+            
+            js基础
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-简历">
+          <a href="/wuyanmao.github.io/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
+            
+            简历
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/wuyanmao.github.io/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br>
+            
+            关于
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://wuyanmao.github.io/wuyanmao.github.io/2019/05/10/test/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="wu yan mao">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/wuyanmao.github.io/images/me.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="B-L-O-G">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">test</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-05-10T18:43:52+08:00">
+                2019-05-10
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  1.3k
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  5
+                </span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <a id="more"></a>
+<p>利用 Hexo 框架搭建一个属于我们自己的博客并写第一篇博客</p>
+<p>一、创建文章<br>在站点文件夹中打开 git bash，输入如下命令创建文章，其中 title 为文章的标题</p>
+<p>$ hexo new “title”<br>1<br>当输入命令后，就会在 source/_post 文件夹下创建一个文件，命名为：title.md</p>
+<p>这个文件就是将要发布到网站上的原始文件，用于记录文章内容</p>
+<p>下面，我们将要在这个文件中写下我们的第一篇博客</p>
+<p>二、编写文章（基于 Markdown）<br>1、Markdown 简介<br>但是，在我们正式写下第一个文字前，我们需要了解一下究竟什么是 Markdown？</p>
+<p>Markdown 是一种可以使用普通文本编辑器编写的 标记语言，通过简单的 标记语法，它可以使普通文本内容具有一定的格式</p>
+<p>基于 Markdown 语法的简洁性，它已经成为目前世界上最流行的用于书写博客的语言</p>
+<p>2、Markdown 语法<br>在编写 Markdown 时，博主强烈的推荐给大家一款简洁易用的 Markdown 编辑器 —— Typora</p>
+<p>按照官方的说法就是 简单而强大，它不仅支持原生的语法，也支持对应的快捷键，更重要的是它还可以 实时预览</p>
+<p>这里附上 Typora 的下载地址：<a href="https://www.typora.io/，有兴趣的朋友可以下载来试试" target="_blank" rel="noopener">https://www.typora.io/，有兴趣的朋友可以下载来试试</a></p>
+<p>好，下面开始进入正题，介绍一些常用的 Markdown 语法</p>
+<p>（1）标题<br>Markdown 语法：</p>
+<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><p>1<br>2<br>3<br>4<br>5<br>6<br>Typora 快捷键：</p>
+<p>Ctrl+1：一级标题</p>
+<p>Ctrl+2：二级标题</p>
+<p>Ctrl+3：三级标题</p>
+<p>Ctrl+4：四级标题</p>
+<p>Ctrl+5：五级标题</p>
+<p>Ctrl+6 ：六级标题</p>
+<p>Ctrl+0：段落</p>
+<p>（2）粗体、斜体、删除线和下划线<br>Markdown 语法：</p>
+<p><em>斜体</em><br><strong>粗体</strong><br><strong><em>加粗斜体</em></strong><br><del>删除线</del><br>1<br>2<br>3<br>4<br>Typora 快捷键：</p>
+<p>Ctrl+I：斜体</p>
+<p>Ctrl+B：粗体</p>
+<p>Ctrl+U：下划线</p>
+<p>Alt+Shift+5：删除线</p>
+<p>（3）引用块<br>Markdown 语法：</p>
+<blockquote>
+<p>文字引用<br>1<br>Typora 快捷键： Ctrl+Shift+Q</p>
+</blockquote>
+<p>（4）代码块<br>Markdown 语法：</p>
+<p><code>行内代码</code></p>
+<p>​<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">多行代码</span><br><span class="line">多行代码</span><br><span class="line">​</span><br></pre></td></tr></table></figure></p>
+<p>1<br>2<br>3<br>4<br>5<br>6<br>Typora 快捷键：</p>
+<p>行内代码：Ctrl+Shift+`</p>
+<p>多行代码：Ctrl+Shift+K</p>
+<p>（5）公式块<br>Markdown 语法：</p>
+<p>$$<br>数学公式<br>$$<br>1<br>2<br>3<br>Typora 快捷键： Ctrl+Shift+M</p>
+<p>（6）分割线<br>Markdown 语法：</p>
+<p>方法一：—</p>
+<p>方法二：+++</p>
+<p>方法三：***<br>1<br>2<br>3<br>4<br>5<br>（7）列表<br>Markdown 语法：</p>
+<ol>
+<li>有序列表项</li>
+</ol>
+<ul>
+<li>无序列表项</li>
+</ul>
+<ul>
+<li>无序列表项</li>
+</ul>
+<ul>
+<li>无序列表项<br>1<br>2<br>3<br>4<br>5<br>6<br>7<br>Typora 快捷键：</li>
+</ul>
+<p>有序列表项：Ctrl+Shift+[</p>
+<p>无序列表项：Ctrl+Shift+]</p>
+<p>（8）表格<br>Markdown 语法：</p>
+<table>
+<thead>
+<tr>
+<th>表头1</th>
+<th>表头2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>内容11</td>
+<td>内容12</td>
+</tr>
+<tr>
+<td>内容21</td>
+<td>内容22</td>
+</tr>
+</tbody>
+</table>
+<p>1<br>2<br>3<br>4<br>Typora 快捷键： Ctrl+T</p>
+<p>（9）超链接<br>Markdown语法：</p>
+<p>方法一：<a href="链接地址" title="链接描述">链接文字</a><br>例如：<a href="https://www.example.com/" title="示例链接" target="_blank" rel="noopener">示例链接</a></p>
+<p>方法二：&lt;链接地址&gt;<br>例如：<a href="https://www.example.com/" target="_blank" rel="noopener">https://www.example.com/</a><br>1<br>2<br>3<br>4<br>5<br>Typora快捷键： Ctrl+K</p>
+<p>（10）图片<br>Markdown语法：</p>
+<p><img src="图片地址" alt="图片文字" title="图片描述"><br>例如：<img src="https://www.example.com/example.PNG" alt="示例图片" title="示例图片"><br>1<br>2<br>Typora快捷键： Ctrl+Shift+I</p>
+<p>说明：在 Hexo中 插入图片时，请按照以下的步骤进行设置</p>
+<p>将 站点配置文件 中的 post_asset_folde 选项的值设置为 true</p>
+<p>在站点文件夹中打开 git bash，输入命令 npm install hexo-asset-image –save 安装插件</p>
+<p>这样，当使用 hexo new title 创建文章时，将同时在 source/_post 文件夹中生成一个与 title 同名的文件夹，我们只需将图片放进此文件夹中，然后在文章中通过 Markdown 语法进行引用即可</p>
+<p>例如，在资源文件夹（就是那个与 title 同名的文件夹）中添加图片 example.PNG，则可以在对应的文章中使用语句 <img src="title/example.PNG" alt="示例图片" title="示例图片"> 添加图片</p>
+<p>3、高级设置<br>（1）模板设置<br>当我们使用命令 hexo new “title” 创建文章时，Hexo 会根据 /scaffolds/post.md 对新文章进行初始化</p>
+<p>换言之，/scaffolds/post.md 就是新文章的 模板，所以我们可以修改它来适应自己的写作习惯</p>
+<p>一个简单的示例如下：</p>
+<p>title: test<br>date: 1557485032000<br>tags:<br>categories:<br>1<br>2<br>3<br>4<br>（2）头部设置<br>在每篇利用 Hexo 创建的文章的开头，都会有对文章进行说明的文字，叫做 文章头部</p>
+<p>文章的头部除了可以设置文章标题、发布日期等基础信息外，还可以为文章添加标签、分类等</p>
+<p>一个简单的示例如下：</p>
+<p>title: Title<br>date: YYYY-MM-DD HH:MM:SS<br>tags: [tag1, tag2, …]<br>categories: category<br>1<br>2<br>3<br>4<br>注意：属性和属性值之间必须有一个空格，否则会解析错误</p>
+<p>（3）首页显示<br>在利用 Hexo 框架搭建的博客网站中，首页会显示文章的内容，且默认显示文章的全部内容</p>
+<p>如果当文章太长的时候就会显得十分冗余，所以我们有必要对其进行精简</p>
+<p>这时，我们只需在文章中使用 <!--more--> 标志即可，表示只会显示标志前面的内容</p>
+<p>三、部署发布<br>在站点文件夹中打开 git bash，输入如下命令部署和发布文章</p>
+<p>$ hexo g -d<br>1</p>
+<h2 id="建议：在使用-hexo-g-部署之后，可以先使用-hexo-s-运行本地站点，然后在浏览器输入地址-http-lacolhost-4000-查看运行结果，检查无误后再使用-hexo-d-发布"><a href="#建议：在使用-hexo-g-部署之后，可以先使用-hexo-s-运行本地站点，然后在浏览器输入地址-http-lacolhost-4000-查看运行结果，检查无误后再使用-hexo-d-发布" class="headerlink" title="建议：在使用 hexo g 部署之后，可以先使用 hexo s 运行本地站点，然后在浏览器输入地址 http://lacolhost:4000/ 查看运行结果，检查无误后再使用 hexo d 发布"></a>建议：在使用 hexo g 部署之后，可以先使用 hexo s 运行本地站点，然后在浏览器输入地址 <a href="http://lacolhost:4000/" target="_blank" rel="noopener">http://lacolhost:4000/</a> 查看运行结果，检查无误后再使用 hexo d 发布</h2><p>作者：wsmrzx<br>来源：CSDN<br>原文：<a href="https://blog.csdn.net/wsmrzx/article/details/81478945" target="_blank" rel="noopener">https://blog.csdn.net/wsmrzx/article/details/81478945</a><br>版权声明：本文为博主原创文章，转载请附上博文链接！</p>
+
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/wuyanmao.github.io/2019/03/08/introduction/" rel="next" title="一些基本的命令">
+                <i class="fa fa-chevron-left"></i> 一些基本的命令
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/wuyanmao.github.io/2019/05/10/统计字数插件/" rel="prev" title="统计hexo文章字数">
+                统计hexo文章字数 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image" src="/wuyanmao.github.io/images/me.gif" alt="wu yan mao">
+            
+              <p class="site-author-name" itemprop="name">wu yan mao</p>
+              <p class="site-description motion-element" itemprop="description">日复一日,年复一年.只有坚持</p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/wuyanmao.github.io/archives">
+              
+                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+
+            
+
+          </nav>
+
+          
+
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#一级标题"><span class="nav-number">1.</span> <span class="nav-text">一级标题</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#二级标题"><span class="nav-number">1.1.</span> <span class="nav-text">二级标题</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#三级标题"><span class="nav-number">1.1.1.</span> <span class="nav-text">三级标题</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#四级标题"><span class="nav-number">1.1.1.1.</span> <span class="nav-text">四级标题</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#五级标题"><span class="nav-number">1.1.1.1.1.</span> <span class="nav-text">五级标题</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#六级标题"><span class="nav-number">1.1.1.1.1.1.</span> <span class="nav-text">六级标题</span></a></li></ol></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#建议：在使用-hexo-g-部署之后，可以先使用-hexo-s-运行本地站点，然后在浏览器输入地址-http-lacolhost-4000-查看运行结果，检查无误后再使用-hexo-d-发布"><span class="nav-number">1.2.</span> <span class="nav-text">建议：在使用 hexo g 部署之后，可以先使用 hexo s 运行本地站点，然后在浏览器输入地址 http://lacolhost:4000/ 查看运行结果，检查无误后再使用 hexo d 发布</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">wu yan mao</span>
+
+  
+</div>
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Mist</a> v5.1.4</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/wuyanmao.github.io/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/wuyanmao.github.io/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/wuyanmao.github.io/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/wuyanmao.github.io/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/wuyanmao.github.io/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/wuyanmao.github.io/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/wuyanmao.github.io/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/wuyanmao.github.io/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/wuyanmao.github.io/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/wuyanmao.github.io/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/wuyanmao.github.io/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
+
